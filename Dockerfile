@@ -1,5 +1,5 @@
 ARG version=latest
-ARG app=theia-rust
+ARG app=theia-go
 FROM theiaide/$app:$version
 
 # We need to add openssl to be able to create the certificates on demand
